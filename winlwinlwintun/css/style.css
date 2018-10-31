@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+  	color: #686868;
+  	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  	font-size: 18px;
+  	overflow-x: hidden;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+header{
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+img{
+	height: 70px;
+	margin: 50px;
+	border-radius: 10px;
+	float: left;
+}
+nav ul{
+	float: right;
+	padding: 55px 20px 0 10px;
+	list-style: none;
+}
+ul li{
+	border:1px solid #fff;
+	padding: 10px;
+	display: inline-block;
+}
+.title{
+	padding-top: 55px;
+	float: left;
+}
+.main-img{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+}
+hr {
+  	border-top: 5px solid #289a99;
+  	margin-top: 0;
+  	margin-bottom: 0;
+}
+.container{
+	padding: 150px 16px 16px 16px;
+	margin: 0 16px 16px 16px;
+}
+.sub-container{
+	padding-top: 350px;
+}
+.main-p{
+	display: inline;
+	width: 65%;
+	float: left;
+	padding-bottom: 20px;
+}
+div.border{
+	color: #fff;
+	display: inline;float: right;
+	padding: 30px 100px 30px 100px;
+	background-color: #289a99;
+	border:1px solid black;
+	text-align: center;
+}
+.radcheck{
+	padding: 20px;
+}
+h2{
+  	font-size: 1.6rem;
+  	font-weight: 600;
+  	color: #39999a;
+  	margin-top: 25px;
+  	margin-bottom: 20px;
+}
+section{
+	margin-bottom: 20px;
+}
+.checkradio{
+	display: inline;
+	margin: 16px;
+	padding: 16px;
+}
+article.checklist{
+	margin-right: 14px;
+	width: 19%;
+	float: left;
+}
+article{
+	margin-right: 6px;
+	width: 33%;
+	float: left;
+}
+article.last{
+	margin-right: 0;
+}
+.form-group {
+  	margin-bottom: 15px;
+}
+label {
+	display: block;
+  	color: #626161;
+  	font-size: 18px;
+}
+.form-control {
+  	display: block;
+  	width: 80%;
+  	height: 34px;
+  	padding: 6px 12px;
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	color: #555;
+  	background-color: #fff;
+  	background-image: none;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+.dropdown {
+  	margin-top: 40px;
+  	height: 45px;
+}
+.input-field{
+	width: 80%;
+	height: 45px;
+}
+.textbox{
+	width: 80%;
+	height: 120px;
+}
+.text-center{
+	text-align: center;
+}
+.submit-container {
+  	margin-bottom: 50px;
+}
+.btn {
+  	font-size: 1em;
+  	height: auto;
+  	text-transform: capitalize;
+  	font-size: 1em;
+}
+.btn-primary {
+  	background-color: #1b6599;
+  	border-color: #1b6599;
+	color: #fff;
+  	padding: 16px;
+}
+.btn-submit {
+  	font-size: 1.2em;
+  	padding: 12px 50px;
+}
+hr.clear,div.clear{
+	clear: both;
+}
+footer p{
+	font-size: 0.9em;
+	text-align: center;
+}
