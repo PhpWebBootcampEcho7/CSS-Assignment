@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Survey</title>
+	<style type="text/css">
+	body{
+		margin: 0;
+		padding: 0;
+		color: #686868;
+		font-size: 18px;
+	}
+	div.content{
+		width: 960px;
+		margin: 0 auto;
+		border: 3px solid white;
+	}	
+	header:after{
+		content: ".";
+		height: 0;
+		visibility: hidden;
+		line-height: 0;
+	}
+	nav.logo{
+		float: left;
+	}
+	nav ul{
+		float: right;
+		padding: 0px;
+		margin: 5px 10px;
+		list-style: none;
+	}
+	ul li{
+		background: blue;
+		border: 3px solid blue;
+		padding: 15px;
+		margin-top: 0;
+		border-radius: 5px;
+	}
+	li a{
+		color: white;
+		text-decoration: none;
+	}
+	p.first{
+		display: inline;
+	}
+	p.second{
+		display: inline-block;
+		border: 3px solid blue;
+		padding: 15px;
+		background: blue;
+		color: white;
+		margin-left: 0;
+		border-radius: 10px;
+		clear: both;	
+	}
+	div.option1,.option2,.option3{
+		float: left;
+		margin-right: 20px;
+	}
+	div.check1,.check2,.check3{
+		float: left;
+		margin-right: 20px;
+	}
+	div.image1,.image2,.image3{
+		float: left;
+		margin-right: 20px;
+	}
+	div.div1,.div2,.div3{
+		float: left;
+		margin-right: 50px;
+		margin-bottom: 50px;
+	}
+	div.div4{
+		clear: both;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<header>
+			<nav>
+				<div class="logo">
+					<!-- <img src="image/main.jpg" alt="Image" width="100" height="100"> -->
+					<h1>Food Survey</h1>
+				</div>
+
+				<ul>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div>
+		<img src="image/14.jpg" alt="main" width="960" height="300">
+			<table>
+				<tr>
+					<td colspan="2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+					<td style="background-color: blue; color: white; text-align: center; border-radius: 10px;" colspan="2" width="500" height="100">Image</td>
+				</tr>
+			</table>
+			<hr>
+		<form action="" method="post">
+			<h2>Question 1</h2>
+			<p>This is about the food.</p>
+				<div class="option1">
+				<input type="radio" name="option" id="option1" value="1">
+				<label for="option1">Pizza <br><br><img src="image/2.jpeg" alt="Image" width="200" height="200"></label><br>
+				</div>
+				
+				<div class="option2">
+				<input type="radio" name="option" id="option2" value="2">
+				<label for="option2">Burger <br><br><img src="image/3.jpeg" alt="Image" width="200" height="200"></label><br>
+				</div>
+
+				<div class="option3">
+				<input type="radio" name="option" id="option3" value="3">
+				<label for="option3">KFC Chicken <br><br><img src="image/6.jpeg" alt="Image" width="200" height="200"></label><br>
+				</div>
+
+				<div class="option4">
+				<input type="radio" name="option" id="option4" value="4">
+				<label for="option4">Spaghetti <br><br><img src="image/5.jpg" alt="Image" width="200" height="200"></label><br><br>
+				</div>
+		</form>
+		<hr>
+
+		<form action="" method="post">
+			<h2>Question 2</h2>
+			<p>This is about the drinks.</p>
+				<div class="check1">
+				<input type="checkbox" name="checkbox1" id="checkbox1" value="1">
+				<label for="checkbox1">Cappuccino <br><br><img src="image/6.jpg" alt="Image" width="200" height="200"></label><br>
+				</div>
+				
+				<div class="check2">
+				<input type="checkbox" name="checkbox2" id="checkbox2" value="2">
+				<label for="checkbox2">Chocolate milkshake<br><br><img src="image/7.jpg" alt="Image" width="200" height="200"></label><br>
+				</div>
+
+				<div class="check3">
+				<input type="checkbox" name="checkbox3" id="checkbox3" value="3">
+				<label for="checkbox3">Tea<br><br><img src="image/9.jpg" alt="Image" width="200" height="200"></label><br>
+				</div>
+
+				<div class="check4">
+				<input type="checkbox" name="checkbox4" id="checkbox4" value="4">
+				<label for="checkbox4">Straberry Milkshake <br><br><img src="image/8.jpg" alt="Image" width="200" height="200"></label><br>
+				</div>
+		</form>
+		<hr>
+		<form action="" method="post">
+			<h2>Question 3</h2>
+			<p>This is about the fruits.</p>
+				<div class="image1">
+				<label for="image1"><img src="image/10.jpg" alt="Image" width="200" height="200"><br><br><input type="radio" name="image" id="image1" value="1">Orange <br><br></label><br>
+				</div>
+				
+				<div class="image2">
+				<label for="image2"><img src="image/11.jpg" alt="Image" width="200" height="200"><br><br><input type="radio" name="image" id="image2" value="2">Pineapple<br><br></label><br>
+				</div>
+
+				<div class="image3">
+				<label for="image3"><img src="image/12.jpg" alt="Image" width="200" height="200"><br><br><input type="radio" name="image" id="image3" value="3">Apple<br><br></label><br>
+				</div>
+
+				<div class="image4">
+				
+				<label for="image4"><img src="image/13.jpg" alt="Image" width="200" height="200"><br><br><input type="radio" name="image" id="image4" value="4">Grapes <br><br></label><br>
+				</div>
+		</form>
+		<hr>
+ 		
+ 		<form>
+ 		<h2 style="color: blue;">Please tell a little bit about yourself</h2>
+ 			<div class="div1">
+ 			<label for="name">Your Name:</label><br>
+ 			<input type="text" name="name" id="name"><br><br>
+
+ 			<label for="email">Your Email:</label><br>
+ 			<input type="email" name="email" id="email"><br><br>
+ 			</div>
+
+ 			<div class="div2">
+ 			<input type="radio" name="gender" id="m" value="m">
+ 			<label for="m">Male</label>
+ 			<input type="radio" name="gender" id="f" value="f">
+ 			<label for="f">Female</label><br><br>
+
+ 			<select name="occupation" id="occupation">
+ 				<option>Project Manager</option>
+ 				<option>Web developer</option>
+ 				<option>Chief Executive</option>
+ 			</select>
+ 			</div>
+
+ 			<div class="div3">
+ 			<label for="feedback">Additional Options</label><br>
+ 			<textarea name="feedback" id="feedback"></textarea><br><br>
+ 			</div>
+
+ 			<div class="div4">
+ 			<input type="submit" name="btnsubmit" value="Submit">
+ 			</div>
+ 		</form>
+ 		<hr>
+		<footer><p style="text-align: center; color: black;">&copy;Copyright2018</p></footer>
+	</div>
+</body>
+</html>
