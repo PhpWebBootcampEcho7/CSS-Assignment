@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<style type="text/css">
+	.firstdiv>h2{
+	font-size: 15px;
+	margin-top: 15px;
+		
+}
+	div.absolute{
+	position: absolute;
+	top: 20px;
+	right: 150px;
+	width:100px;
+	height: 30px;
+	background-color: pink;
+	border-radius: 10px;
+	text-align: center;
+}
+    .seconddiv>img{
+	width: 1200px;
+	height: 200px;
+}
+.thirddiv{
+	position: absolute;
+	top: 300px;
+	right: 150px;
+	width:110px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 10px;
+	display: inline-block;
+	clear: both;
+}
+article{
+	width: 300px;
+	float: left;
+	display: inline-block;
+
+}
+.secblock{
+	width: 1200px;
+	margin:0;
+	padding: 0;
+	
+}
+.thirdblock{
+	width: 1204px;
+	margin:0;
+	padding: 0;
+	
+}
+.imgsection2>article{
+	width: 300px;
+	float: left;
+	display: inline-block;
+
+}
+body{
+	margin-left: 100px;
+
+}
+
+.footer>form{
+	float: left;
+	width: 800px;
+}
+</style>
+</head>
+
+<body>
+	<div class="firstblock">
+		<header>
+			<nav>
+				<div class="firstdiv">
+					<h1>Quiz4fun!</h1>
+					<div class="absolute">Contact Us</div>
+				</div>
+				<div class="seconddiv">
+					<img src="../img/q1.png">
+				</div>
+			</nav>
+		</header>
+		<p>Welcome my quiz blog!!!!
+			The purpose of quiz blog is to be happy your mind and to expand your knowledge.
+		</p>
+		<div class="thirddiv">
+			"Your Oppion Memory"
+		</div>
+	</div>
+	<br><br><br>
+
+	<hr style="color: red;">
+
+	<div class="secblock">
+		<h3>Question1</h3>
+		<p>Which one is dimsum?</p>
+		<section class="upradio">
+			<article>
+				<input type="radio" name="rdo" value="Sushi" checked="checked">Sushi
+			</article>
+			<article>
+				<input type="radio" name="rdo">Sushi
+			</article>
+			<article>
+				<input type="radio" name="rdo">Sushi
+			</article>
+			<article>
+				<input type="radio" name="rdo">Sushi
+			</article>
+		</section>
+		<section class="imgsection1">
+			<article>
+				<img src="../img/c1.jpg" id="img1">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+		</section>
+	</div>
+		
+
+	<br><br><br><br><br><br><hr style="color: red;">
+
+	<div class="thirdblock">
+		<h3>Question2</h3>
+		<p>Which one is dimsum?</p>
+		<section class="checkbox">
+			<article>
+				<input type="checkbox" name="chk1" value="Sushi" checked="checked">Sushi
+			</article>
+			<article>
+				<input type="checkbox" name="chk2">Sushi
+			</article>
+			<article>
+				<input type="checkbox" name="chk3">Sushi
+			</article>
+			<article>
+				<input type="checkbox" name="chk4">Sushi
+			</article>
+		</section>
+		<section class="imgsection2">
+			<article>
+				<img src="../img/c1.jpg" id="img1">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+		</section>
+	</div>
+	<br><br><br>
+
+	<hr style="color: red;">
+
+	<div class="fourthblock">
+		<h3>Question3</h3>
+		<p>Which one is dimsum?</p>
+		<section class="imgsection3">
+			<article>
+				<img src="../img/c1.jpg" id="img1">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+			<article>
+				<img src="../img/c1.jpg">
+			</article>
+		</section>
+		<section class="downradio">
+			<article>
+				<input type="radio" name="rdo" value="Sushi" checked="checked">Sushi
+			</article>
+			<article>
+				<input type="radio" name="rdo">Sushi
+			</article>
+			<article>
+				<input type="radio" name="rdo">Sushi
+			</article>
+			<article>
+				<input type="radio" name="rdo">Sushi
+			</article>
+		</section>
+    </div>
+    <br><br><br><br><br><hr>
+
+    <h1 style="color:red;">
+		Please enter your account to see your score.
+	</h1>
+	<div class="footer">
+		<form action="" method="post">
+			<label>Your Name:</label><br>
+			<input type="text" name="name" placeholder="Enter your name">
+
+			<input type="radio" name="rdo" style="margin-left: 30px;">Male
+
+			<input type="radio" name="rdo" style="margin-left: 30px;">Female
+
+			<span style="margin-left: 150px;">Additional Opinions</span><br>
+			
+			<br><br>
+
+			<label>Your Email:</label><br>
+			<input type="text" name="email" placeholder="Enter your email">
+
+			<select name="occupation"style="margin-left:30px;">
+				<option>Your occupation</option>
+				<option>Student</option>
+				<option>Worker</option>
+				<option>Other</option>
+			</select>
+				
+			<span style="margin-left: 160px;"><textarea></textarea></span>
+			<br><br>
+			<input type="submit" name="submitbtn" value="submit" style="color:blue;">
+			
+		</form>
+	</div>
+</body>
+</html>
